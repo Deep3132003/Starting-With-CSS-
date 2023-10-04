@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page with CSS</title>
+    <!-- External CSS (Linked) -->
+    <link rel="stylesheet" href="./ANS1.css">
+    <!--Internal CSS Apply  -->
+    <style>
+        .h{
+            color: darkcyan;
+        }
+         .br{
+        color: blueviolet;
+    }
+    #cr{
+        color: brown;
+    }
+    img{
+        width:500px;
+        height:400px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1><b> The order of specificity (Inline > Internal > External) and the order in which the CSS is declared (Top to Bottom) in the file matters in determining which style will ultimately be applied.</b></h1>
+<p><b><u>For eg:</u></b></p>
+<h4 style="color: burlywood;">Lorem ipsum dolor sit amet consectetur.</h4>
+<h4 >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque pariatur libero fugiat similique veniam ipsa.</h4>
+<h4 class="h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, veritatis totam! Illo, odio.</h4>
+<h4 class="h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minima magnam voluptatem ipsum adipisci? Facilis mollitia id impedit. Atque, laboriosam?</h4>
+
+        <h1>Hello with CSS</h1>
+    <h1 class="br">Hello to Deep</h1>
+    <h1 id="cr" class="pr">Hii to sir</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3o5k75rO0e5Ja-0MPJ0dydjsdbQixEhD2adu-F1YS&s" alt="Image is not supproted for this browser">
+<br>
+<!-- Inline CSS Apply-->
+    <div style="background-color: aquamarine; display: inline;" class="dr">Banner detail : </div>
+    <h1><u>Hello to Universe</u></h1>
+    <p style="background-color: cornflowerblue; display: inline;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum doloremque non atque inventore repellat, quasi maiores placeat exercitationem aliquam.</p>
+    <!--External CSS Apply  -->
+  
+    <h1><u>Family 1</u></h1>
+    <div class="Family1">
+        <h2 class="Male">Male</h2>
+        <h2 class="Female">Female</h2>
+        <h2 class="Female">Female</h2>
+        <h2 class="Male">Male</h2>
+        <h2 class="Male">Male</h2>
+    </div>
+    <h1><u>Famliy 2</u></h1>
+    <div class="Family2">
+        <h2 class="Male">Male</h2>
+        <h2 class="Female">Female</h2>
+        <h2 class="Female">Female</h2>
+        <h2 class="Male">Male</h2>
+        <h2 class="Male">Male</h2>
+    <div>
+    <h3 id="F" class="Female">Female</h3>
+    <h3 id="F" class="Female">Female</h3>
+    <h3 id="M" class="Male">Male</h3>
+    </div>
+    </div>
+
+
+ 
+</body>
+</html>

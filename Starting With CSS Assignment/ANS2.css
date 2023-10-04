@@ -1,0 +1,59 @@
+/* Block: container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Block: paragraph */
+/* Element: intro */
+.par_1 {
+    
+    font-size: 1.6em;
+    color: #ffff00;
+}
+
+/* Element: main-content */
+.par_2 {
+    
+    font-size: 2em;
+    color: #00ffff;
+}
+
+/* Element: conclusion */
+.par_3 {
+    background-color: #8a6d3b;
+    border: 1px solid chocolate;
+    padding-inline: 10px;
+    font-size: 1.4em;
+    color: #000000
+   
+}
+
+/* Element: quote */
+.par_4 {
+    font-style: italic;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+}
+
+/* Element: note */
+.par_5 {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Element: warning */
+.par_6 {
+    background-color: #ffeeba;
+    border: 1px solid #f0ad4e;
+    color: #8a6d3b;
+    padding: 10px;
+}
+
+/* Element: summary */
+.par_7 {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #00ff00;
+}

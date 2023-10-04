@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Login From</title>
+    <link rel="stylesheet" href="./ANS3.css" />
+  </head>
+  <body>
+    <div class="login_form_container">
+      <div class="login_form">
+        <h2>Login</h2>
+        <form action="submit_form.php" method="post">
+          <div class="input_group">
+            <i class="fa fa-envelope"></i>
+            <input
+              type="email"
+              placeholder="abc123@gmail.com"
+              class="input_text"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="input_group">
+            <i class="fa fa-user"></i>
+            <input
+              type="text"
+              minlength="3"
+              maxlength="20"
+              placeholder="Username"
+              class="input_text"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="input_group">
+            <i class="fa fa-unlock-alt"></i>
+            <input
+              type="password"
+              placeholder="Password"
+              class="input_text"
+              autocomplete="off"
+              required
+            />
+            
+            
+
+            <br>
+          </div>
+          <div class="button_group">
+            <button type="submit" style="color: aqua;">Submit</button>
+          </div>
+          <br>
+        </form>
+        <div class="footer">
+          <a href="forgot_password.html" style="color:#00ccff52;">Forgot Password ?</a>
+
+          <a  href="signup.html" style="color: #00ccff52;">SignUp</a>
+          <br>
+          <br>
+          <input type="checkbox" id="agree" name="agree" required>
+          <label for="agree"><b>I agree to the terms and conditions</b></label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+/* External CSS (Apply) */
+h4{
+    color: blueviolet;
+}
+.Family1 .Male{
+    color: aqua;
+
+}
+.Family2 .Female {
+    color: cornflowerblue;
+}
+.Family2 #F{
+    color: chartreuse;
+    font: size 10px; ;
+}
+
